@@ -7,10 +7,10 @@ project(redpesk_test LANGUAGES C CXX)
 add_executable(rp_hello_cpp
   src/main.cpp
 )
-install(TARGETS rp_hello_cpp DESTINATION ${CMAKE_BINARY_DIR}/bin)
 
 add_executable(rp_hello_c
   src/main.c
 )
-install(TARGETS rp_hello_c DESTINATION ${CMAKE_BINARY_DIR}/bin)
 
+install(TARGETS rp_hello_cpp DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(TARGETS rp_hello_c DESTINATION ${CMAKE_INSTALL_BINDIR})
