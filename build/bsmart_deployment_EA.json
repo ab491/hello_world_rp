@@ -1,3 +1,375 @@
 {
-    
+    "applications": [
+        {
+            "name": "configurator",
+            "image": "bsmart-configurator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-configurator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "ui-bridge",
+            "image": "bsmart-uibridge-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-uibridge-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-lightsensorreader",
+            "image": "bsmart-pdcvr-lightsensorreader-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-lightsensorreader-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-hazardbutton",
+            "image": "bsmart-pdchr-hazardbutton-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-hazardbutton-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-hazardled",
+            "image": "bsmart-pdchr-hazardled-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-hazardled-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-turnindicatormirroractuator",
+            "image": "bsmart-pdcvr-turnindicatormirroractuator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-turnindicatormirroractuator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-turnindicatorfrontactuator",
+            "image": "bsmart-pdcvr-turnindicatorfrontactuator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-turnindicatorfrontactuator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-turnindicatorfrontactuator",
+            "image": "bsmart-pdcvl-turnindicatorfrontactuator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-turnindicatorfrontactuator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-turnindicatorrearactuator",
+            "image": "bsmart-pdchr-turnindicatorrearactuator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-turnindicatorrearactuator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-turnindicatorrearactuator",
+            "image": "bsmart-pdchl-turnindicatorrearactuator-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-turnindicatorrearactuator-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-doormodulecontrol",
+            "image": "bsmart-scg-doormodulecontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-doormodulecontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-turnindicatorcontrol",
+            "image": "bsmart-scg-turnindicatorcontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-turnindicatorcontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-turnindicatorleversense",
+            "image": "bsmart-pdchr-turnindicatorleversense-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-turnindicatorleversense-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-steeranglereader",
+            "image": "bsmart-pdcvl-steeranglereader-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-steeranglereader-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "hmi",
+            "image": "bsmart-hmi-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-hmi-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "surroundviewcontrol",
+            "image": "bsmart-surroundviewcontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-surroundviewcontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-lightstatemachine",
+            "image": "bsmart-scg-lightstatemachine-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-lightstatemachine-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-headlightcontrol",
+            "image": "bsmart-pdcvl-headlightcontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-headlightcontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-headlightcontrol",
+            "image": "bsmart-pdcvr-headlightcontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-headlightcontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-fusingproxy",
+            "image": "bsmart-scg-fusingproxy-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-fusingproxy-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-fusingproxy",
+            "image": "bsmart-pdchl-fusingproxy-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-fusingproxy-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-fusingproxy",
+            "image": "bsmart-pdchr-fusingproxy-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-fusingproxy-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-fusingproxy",
+            "image": "bsmart-pdcvl-fusingproxy-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-fusingproxy-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-fusingproxy",
+            "image": "bsmart-pdcvr-fusingproxy-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-fusingproxy-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-powermanager",
+            "image": "bsmart-scg-powermanager-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-powermanager-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-power-start-up",
+            "image": "bsmart-scg-power-start-up-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-power-start-up-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-runlevel-ctrl",
+            "image": "bsmart-scg-runlevel-ctrl-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-runlevel-ctrl-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-powermanager",
+            "image": "bsmart-pdchl-powermanager-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-powermanager-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-powermanager",
+            "image": "bsmart-pdchr-powermanager-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-powermanager-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-powermanager",
+            "image": "bsmart-pdcvl-powermanager-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-powermanager-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-powermanager",
+            "image": "bsmart-pdcvr-powermanager-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-powermanager-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-fancontrol",
+            "image": "bsmart-scg-fancontrol-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-fancontrol-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-fanthermalsense",
+            "image": "bsmart-pdchl-fanthermalsense-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-fanthermalsense-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-fanpwmactuate",
+            "image": "bsmart-pdcvl-fanpwmactuate-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-fanpwmactuate-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-healthclientmgr",
+            "image": "bsmart-scg-healthclientmgr-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-healthclientmgr-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-healthclient",
+            "image": "bsmart-pdchl-healthclient-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-healthclient-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-healthclient",
+            "image": "bsmart-pdchr-healthclient-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-healthclient-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-healthclient",
+            "image": "bsmart-pdcvl-healthclient-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-healthclient-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-healthclient",
+            "image": "bsmart-pdcvr-healthclient-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-healthclient-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "scg-loggingforwarder",
+            "image": "bsmart-scg-loggingforwarder-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-scg-loggingforwarder-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchl-loggingforwarder",
+            "image": "bsmart-pdchl-loggingforwarder-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchl-loggingforwarder-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdchr-loggingforwarder",
+            "image": "bsmart-pdchr-loggingforwarder-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdchr-loggingforwarder-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvl-loggingforwarder",
+            "image": "bsmart-pdcvl-loggingforwarder-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvl-loggingforwarder-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        },
+        {
+            "name": "pdcvr-loggingforwarder",
+            "image": "bsmart-pdcvr-loggingforwarder-image",
+            "tarfile": "build/tmp/deploy/images/qemuarm64/bsmart-pdcvr-loggingforwarder-image-qemuarm64.tar",
+            "machine": "qemuarm64"
+        }
+
+
+    ],
+    "distributions": [
+        {
+            "name": "ScG",
+            "applications": [
+                "configurator",
+                "hmi",
+                "surroundviewcontrol",
+                "ui-bridge",
+                "scg-fusingproxy",
+                "scg-powermanager",
+                "scg-power-start-up",
+                "scg-runlevel-ctrl",
+                "scg-lightstatemachine",
+                "scg-fancontrol",
+                "scg-turnindicatorcontrol",
+                "scg-doormodulecontrol",
+                "scg-healthclientmgr",
+                "scg-loggingforwarder"
+            ]
+        },
+        {
+            "name": "PdCVL",
+            "applications": [
+                "configurator",
+                "pdcvl-fusingproxy",
+                "pdcvl-powermanager",
+                "pdcvl-turnindicatorfrontactuator",
+                "pdcvl-steeranglereader",
+                "pdcvl-fanpwmactuate",
+                "pdcvl-healthclient",
+                "pdcvl-loggingforwarder"
+            ]
+        },
+        {
+            "name": "PdCHL",
+            "applications": [
+                "configurator",
+                "pdchl-fusingproxy",
+                "pdchl-powermanager",
+                "pdchl-fanthermalsense",
+                "pdchl-turnindicatorrearactuator",
+                "pdchl-healthclient",
+                "pdchl-loggingforwarder"
+            ]
+        },
+        {
+            "name": "PdCVR",
+            "applications": [
+                "configurator",
+                "pdcvr-fusingproxy",
+                "pdcvr-powermanager",
+                "pdcvr-lightsensorreader",
+                "pdcvr-turnindicatorfrontactuator",
+                "pdcvr-healthclient",
+                "pdcvr-loggingforwarder"
+            ]
+        },
+        {
+            "name": "PdCHR",
+            "applications": [
+                "configurator",
+                "pdchr-fusingproxy",
+                "pdchr-powermanager",
+                "pdchr-hazardbutton",
+                "pdchr-hazardled",
+                "pdchr-turnindicatorleversense",
+                "pdchr-turnindicatorrearactuator",
+                "pdchr-healthclient",
+                "pdchr-loggingforwarder"
+            ]
+        },
+        {
+            "name": "Configurator",
+            "applications": [
+                "configurator"
+            ]
+        }
+
+    ],
+    "targets": [
+        {
+            "name": "ScG",
+            "distribution": "ScG"
+        },
+        {
+            "name": "PdCHL",
+            "distribution": "PdCHL"
+        },
+        {
+            "name": "PdCVL",
+            "distribution": "PdCVL"
+        },
+        {
+            "name": "PdCHR",
+            "distribution": "PdCHR"
+        },
+        {
+            "name": "PdCVR",
+            "distribution": "PdCVR"
+        },
+        {
+            "name": "FirstContact",
+            "distribution": "Configurator"
+        }
+    ]
 }
